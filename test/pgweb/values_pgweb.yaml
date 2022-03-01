@@ -20,3 +20,8 @@ env:
       secretKeyRef:
         name: yvtokan-test-postgresql
         key: username
+  - name: postgres-password 
+    valueFrom:
+      secretKeyRef:
+        name: yvtokan-test-postgresql
+        key: postgres-password

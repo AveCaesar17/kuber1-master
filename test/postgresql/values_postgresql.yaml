@@ -3,11 +3,11 @@
 ##
 global:
     auth:
-      postgresPassword: ""
-      username: ""
-      password: ""
-      database: ""
-      existingSecret: "yvtokan-test-postgresql"
+      postgresPassword: "admin"
+      username: "admin"
+      password: "admin"
+      database: "mydb"
+      existingSecret: ""
     ## @param global.postgresql.service.ports.postgresql PostgreSQL service port (overrides `service.ports.postgresql`)
     ##
     service:
